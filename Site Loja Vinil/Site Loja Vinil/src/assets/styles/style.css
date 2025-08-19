@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: white;
+    font-family: "Caesar Dressing", system-ui;
+    overflow-x: hidden;
+    
+}
+
+header{
+    text-align: center;
+
+
+}
+
+.logo_header{
+    margin-left: 500px;
+    width: 300px;
+
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.logo_pixacao{
+    margin-left: -1010px;
+    width: 200px;
+   
+}
+
+.logo_pixacao2{
+    margin-left: 1200px;
+    margin-top: -200px;
+
+}
+
+.navbar{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+a{
+    color: white  ;
+    text-decoration: none;
+    margin-left: 125px;
+    font-size: xx-large;
+    transition: color 0.2s ease;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.video{
+    width: 100%;
+    height: 520px;
+
+
+
+}
+
+
+
+.menu{
+    margin-right: 135px;
+
+
+}
+
+main{
+    padding: 45px;
+}
+
+main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+    text-decoration: underline;
+    font-size: 60px;
+}
+.container1 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: first baseline;
+    padding-bottom: 100px;
+    padding: 20px 8px;
+}
+
+.imageLan1 {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageLan1 img {
+    display: flex;
+    width: 450px;
+    height: auto;
+    
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -97px;
+    margin-left: 50px;
+}
+
+.preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+main button {
+    font-size: 20px;
+    background: white;
+    border: 5px solid black;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.conteiner2 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: first baseline;
+    padding-bottom: 100px;
+    padding: 20px 8px;
+}
+
+.imageLan2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageLan2 img {
+    display: flex;
+    width: 450px;
+    height: auto;
+}
+
+.coluna{
+    margin-right: 180px;
+
+
+}
+
+.ofertas{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 24px;
+    justify-content: center;
+    
+
+}
+
+.coluna1{
+    display: flex;
+    gap: 150px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    margin-left: -258px;
+    justify-content: center;
+
+
+
+
+}
+
+.temporizador {
+    font-size: 2em;
+    margin: 20px auto;
+    color: #ff0000;
+}
+
+.ofersdiv{
+    margin-left: 300px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+
+
+}
+
+.ofersdiv2{
+    margin-left: -10px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+
+
+}
+
+.ofersdiv3{
+    margin-left: -10px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+
+
+}
+
+.titleoff{
+
+    color: black;
+ margin-left: 120px;
+ margin-top: -150px;
+ font-size: 25px;
+}
+
+.preoff{
+    color: black;
+    margin-left: 160px;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.imgs{
+    width: 550px;
+    margin-left: -120px;
+
+
+}
+
+.btofers{
+color: black; 
+background-color: white; 
+border-radius: 20px; 
+font-size: 50px;
+font-family: Caesar Dressing;
+margin-left: 840px;
+margin-top: -77px;
+padding: 3px;
+cursor: pointer;
+border: none;
+justify-content: center;
+
+}
+
+
+
+
+
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 60px;
+    border-radius: 30px 30px 0px 0px;
+    
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+  
+  
+  .footerLogo {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  
+  .socialConteiner{
+      display: flex;
+      align-items: center;
+  }
+  .social {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .socialLogo{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      gap: 11px;
+      margin-left: 20px;
+  }
+  .socialLogo img{
+      max-width: 30px;
+  }
+  
+  .footerCtt {
+    text-align: right;
+    margin-right: 50px;
+  }
+  
+  .footerCtt h1 {
+      font-size: 30px;
+      margin-bottom: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;   
+  }
+  .footerCtt p{
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
