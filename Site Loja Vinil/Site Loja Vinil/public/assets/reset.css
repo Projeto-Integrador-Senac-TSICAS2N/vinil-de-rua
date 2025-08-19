@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+:root{
+    --cor-white: #ffffff;
+    --cor-black: #000000;
+    --cor-silver: #565555;
+   
+
+
+    --font:"Nata Sans", sans-serif;
+}
